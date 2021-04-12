@@ -60,7 +60,7 @@ stages:
   dependsOn: Build
   condition: succeeded()
   jobs:
-  - deployment: Deployment Job
+  - deployment: DeploymentJob
     pool:
       vmImage: $(vmImageName)
     environment: java-container
