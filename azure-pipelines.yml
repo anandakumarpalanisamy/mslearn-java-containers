@@ -86,8 +86,8 @@ stages:
                connectionStrings: |
                  [
                    {
-                     "name": "MyShuttleDB",
-                     "value" "jdbc:mysql//$(MySqlServer).mysql.database.azure.com:3306/alm?useSSL=true&requireSSL=false&autoReconnect=true&user=$(MySqlUserName)@$(MySqlServer)&password=$(MySqlPassword)",
+                     "name": "MyShuttleDb",
+                     "value" "jdbc:mysql://$(MySqlServer).mysql.database.azure.com:3306/alm?useSSL=true&requireSSL=false&autoReconnect=true&user=$(MySqlUserName)@$(MySqlServer)&password=$(MySqlPassword)",
                      "type": "MySQL",
                      "slotSetting": false
                    }
