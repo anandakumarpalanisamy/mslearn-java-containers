@@ -5,7 +5,7 @@ resources:
 - repo: self
 
 variables:
-  dockerfilePath: '$(Build.SourceDirectory)/src/Dockerfile'
+  dockerfilePath: '$(Build.SourcesDirectory)/src/Dockerfile'
   webRepository: 'web'
   tag: '$(Build.BuildId)'
   vmImageName: 'ubuntu-latest'
